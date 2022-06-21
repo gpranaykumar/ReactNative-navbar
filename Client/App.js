@@ -10,6 +10,7 @@ import About from './screens/About';
 import Profile from './screens/Profile';
 import Settings from './screens/Settings';
 import SettingsSecond from './screens/SettingsSecond';
+import 'react-native-gesture-handler'; 
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
