@@ -1,0 +1,8 @@
+tasks:
+  - name: Terminal 1
+    before: echo 'before script'
+    init: npm install -g expo-cli
+  - init: |
+      echo 'TODO: build project'
+    command: |
+      echo 'TODO: start app'
